@@ -1,0 +1,55 @@
+body {
+        margin: 0px;
+    }
+    
+    #all {
+        margin: auto;
+        margin-top: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .img {
+        float: left;
+        z-index: 0;
+    }
+    
+    #images {
+        position: absolute;
+        float: left;
+    }
+    
+    #buttons {
+        display: inline-block;
+        position: absolute;
+        z-index: 9999;
+    }
+    
+    .button {
+        display: inline-block;
+        float: left;
+        background-color: #121112;
+    }
+
+    .button:hover {
+        cursor: pointer;
+    }
+
+    #on {
+        background-color: #DD953A;
+        color: #DD953A;
+    }
+
+    .arrow {
+        position: absolute;
+    }
+    .box {
+        display: inline-block;
+        position: absolute;
+        background-color: black;
+        opacity: 0.4;
+    }
+    .box:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
